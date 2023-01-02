@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-02T12:42:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">2023 New Year First Post</title><link href="http://localhost:4000/daily_report/2023/01/02/New-Year.html" rel="alternate" type="text/html" title="2023 New Year First Post" /><published>2023-01-02T00:00:00+09:00</published><updated>2023-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily_report/2023/01/02/New-Year</id><content type="html" xml:base="http://localhost:4000/daily_report/2023/01/02/New-Year.html"><![CDATA[<p>2023/01/02 First work at the Hansol Inticube on 2023.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-02T17:26:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">2023 New Year First Post</title><link href="http://localhost:4000/daily_report/2023/01/02/New-Year.html" rel="alternate" type="text/html" title="2023 New Year First Post" /><published>2023-01-02T00:00:00+09:00</published><updated>2023-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily_report/2023/01/02/New-Year</id><content type="html" xml:base="http://localhost:4000/daily_report/2023/01/02/New-Year.html"><![CDATA[<p>2023/01/02 First work at the Hansol Inticube on 2023.<br />
 Nothing to do…</p>]]></content><author><name>Jian Kim</name></author><category term="Daily_Report" /><summary type="html"><![CDATA[2023/01/02 First work at the Hansol Inticube on 2023. Nothing to do…]]></summary></entry><entry><title type="html">Linux Command &amp;amp; Shell Script</title><link href="http://localhost:4000/freshman/training/2022/12/28/Linux-shell.html" rel="alternate" type="text/html" title="Linux Command &amp;amp; Shell Script" /><published>2022-12-28T00:00:00+09:00</published><updated>2022-12-28T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2022/12/28/Linux-shell</id><content type="html" xml:base="http://localhost:4000/freshman/training/2022/12/28/Linux-shell.html"><![CDATA[<p>2022/12/16 Freshman Training of Hansol Inticube.<br />
 Instructor is <strong>김희태</strong>.</p>
 
@@ -35,7 +35,116 @@ Instructor is <strong>정갑식</strong> and <strong>위장민</strong>.</p>
 
 <p>They doesn’t connection between server and client.<br />
 Client/Server just send data like to throw into the hole.<br />
-Thus, Some data may be lost. It used to sending and recieving media data. Because they don’t have any problem, loosing some data.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="TCP/IP" /><category term="UDP" /><category term="Socket" /><summary type="html"><![CDATA[2022/12/16 Freshman Training of Hansol Inticube. Instructor is 정갑식 and 위장민. TCP/IP Connection - 3 Way HandShacking Close - 4 Way HandShaking UDP They doesn’t connection between server and client. Client/Server just send data like to throw into the hole. Thus, Some data may be lost. It used to sending and recieving media data. Because they don’t have any problem, loosing some data.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+Thus, Some data may be lost. It used to sending and recieving media data. Because they don’t have any problem, loosing some data.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="TCP/IP" /><category term="UDP" /><category term="Socket" /><summary type="html"><![CDATA[2022/12/16 Freshman Training of Hansol Inticube. Instructor is 정갑식 and 위장민. TCP/IP Connection - 3 Way HandShacking Close - 4 Way HandShaking UDP They doesn’t connection between server and client. Client/Server just send data like to throw into the hole. Thus, Some data may be lost. It used to sending and recieving media data. Because they don’t have any problem, loosing some data.]]></summary></entry><entry><title type="html">PostgreSQL</title><link href="http://localhost:4000/freshman/training/2022/12/23/PostgreSQL.html" rel="alternate" type="text/html" title="PostgreSQL" /><published>2022-12-23T00:00:00+09:00</published><updated>2022-12-23T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2022/12/23/PostgreSQL</id><content type="html" xml:base="http://localhost:4000/freshman/training/2022/12/23/PostgreSQL.html"><![CDATA[<p>2022/12/23 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>김배일</strong>.</p>
+
+<h2 id="postgresql">PostgreSQL</h2>
+<p>PostgreSQL is famous as one of free source DataBase.<br />
+MySQL and MariaDB are also free Database, but the two has some matters, we usually use PostgreSQL.</p>
+
+<hr />
+<h3 id="install-postgresql-on-ubuntu">Install PostgreSQL on Ubuntu</h3>
+<p>Use Ubuntu with WSL2.</p>
+<ul>
+  <li>WSL install on Windows PowerShell
+<code class="language-plaintext highlighter-rouge">wsl --install</code></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt-get update &amp;&amp; upgrade</code><br />
+<code class="language-plaintext highlighter-rouge">sudo apt-get install postgresql postgresql-contrib</code></p>
+
+<hr />
+<h3 id="postgresql-cluster-structure">PostgreSQL cluster structure</h3>
+<p><img src="./images/postgreSQL cluster structure.png" /></p>
+
+<p>We need to make cluster.<br />
+It can be made the below command.</p>
+
+<p><code class="language-plaintext highlighter-rouge">initdb -D [directory location]</code></p>
+
+<p>If you see <code class="language-plaintext highlighter-rouge">initdb:command not found</code>, then <code class="language-plaintext highlighter-rouge">sudo find / -name "initdb"</code>.<br />
+And change the directory to the result of the second command.<br />
+<code class="language-plaintext highlighter-rouge">./initdb -D [directory location]</code></p>
+
+<p>Move the work directory, you can see the cluster.<br />
+Edit the postgresql.conf file.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#------------------------------------------------------------------------------
+# CONNECTIONS AND AUTHENTICATION
+#------------------------------------------------------------------------------
+
+# - Connection Settings -
+
+#listen_addresses = 'localhost'         # what IP address(es) to listen on;
+                                        # comma-separated list of addresses;
+                                        # defaults to 'localhost'; use '*' for all
+                                        # (change requires restart)
+port = 6000                             # (change requires restart)
+</code></pre></div></div>
+
+<p>Chane port number to you want.<br />
+And have to edit bg_hba.conf file. But couldn’t remeber that.</p>
+
+<p>Anyway start PostgreSQL server. …<br />
+TODO: ADD them.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Server" /><category term="Database" /><summary type="html"><![CDATA[2022/12/23 Freshman Training of Hansol Inticube. Instructor is 김배일. PostgreSQL PostgreSQL is famous as one of free source DataBase. MySQL and MariaDB are also free Database, but the two has some matters, we usually use PostgreSQL. Install PostgreSQL on Ubuntu Use Ubuntu with WSL2. WSL install on Windows PowerShell wsl --install sudo apt-get update &amp;&amp; upgrade sudo apt-get install postgresql postgresql-contrib PostgreSQL cluster structure We need to make cluster. It can be made the below command. initdb -D [directory location] If you see initdb:command not found, then sudo find / -name "initdb". And change the directory to the result of the second command. ./initdb -D [directory location] Move the work directory, you can see the cluster. Edit the postgresql.conf file. #------------------------------------------------------------------------------ # CONNECTIONS AND AUTHENTICATION #------------------------------------------------------------------------------ # - Connection Settings - #listen_addresses = 'localhost' # what IP address(es) to listen on; # comma-separated list of addresses; # defaults to 'localhost'; use '*' for all # (change requires restart) port = 6000 # (change requires restart) Chane port number to you want. And have to edit bg_hba.conf file. But couldn’t remeber that. Anyway start PostgreSQL server. … TODO: ADD them.]]></summary></entry><entry><title type="html">SIP protocol</title><link href="http://localhost:4000/freshman/training/2022/12/22/SIP.html" rel="alternate" type="text/html" title="SIP protocol" /><published>2022-12-22T00:00:00+09:00</published><updated>2022-12-22T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2022/12/22/SIP</id><content type="html" xml:base="http://localhost:4000/freshman/training/2022/12/22/SIP.html"><![CDATA[<p>2022/12/22 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>이소형</strong>.</p>
+
+<h2 id="sip">SIP</h2>
+
+<p>SIP - Session Initiation Protocol</p>
+
+<table>
+  <tr>
+    <td rowspan="4">Software Layers</td>
+    <td>Layer</td>
+    <td>Layer name</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Application</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Presentation</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Session</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Heart of OSI</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Transport</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Hardware Layers</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Network</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Datalink</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Physical</td>
+  </tr>
+</table>
+
+<p>Follow the above table, SIP is placed on 7 layer, Application.<br />
+HTTPS is also place on 7 layer. I don’t know why, HTTPS and SIP is same response message.</p>
+
+<hr />
+<h2 id="proxy-redirect-location-server">Proxy, Redirect, Location server</h2>
+<h3 id="proxy-server">Proxy server</h3>
+<p>Client send some signal, then proxy server response. Proxy server decide where is the destination. But the exclude doesn’t know where the destination.</p>
+<h3 id="redirect-server">Redirect Server</h3>
+<p>Same to proxy server, but the exclude could know the destination.</p>
+<h3 id="location-server">Location server</h3>
+<p>It decide where the client post to.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="SIP" /><category term="protocol" /><summary type="html"><![CDATA[2022/12/22 Freshman Training of Hansol Inticube. Instructor is 이소형.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -549,31 +658,4 @@ This feature is contributed by <a href="https://github.com/Lucas-C">Lucas-C</a>.
       <td style="text-align: left"> </td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="table" /><summary type="html"><![CDATA[Table example as below]]></summary></entry><entry><title type="html">Mermaid example</title><link href="http://localhost:4000/example/2017/12/08/mermaid-example.html" rel="alternate" type="text/html" title="Mermaid example" /><published>2017-12-08T00:00:00+09:00</published><updated>2017-12-08T00:00:00+09:00</updated><id>http://localhost:4000/example/2017/12/08/mermaid-example</id><content type="html" xml:base="http://localhost:4000/example/2017/12/08/mermaid-example.html"><![CDATA[<h3 id="1-pie-chart">1. Pie chart</h3>
-
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoicGllIHRpdGxlIFBldHMgYWRvcHRlZCBieSB2b2x1bnRlZXJzXG5cIkRvZ3NcIiA6IDM4NlxuXCJDYXRzXCIgOiA4NVxuXCJSYXRzXCIgOiAzNSIsIm1lcm1haWQiOm51bGx9" /></p>
-
-<h3 id="2-sequence-diagram">2. sequence diagram</h3>
-
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5BbGljZSAtPj4gQm9iOiBIZWxsbyBCb2IsIGhvdyBhcmUgeW91P1xuQm9iLS0-PkpvaG46IEhvdyBhYm91dCB5b3UgSm9obj9cbkJvYi0teCBBbGljZTogSSBhbSBnb29kIHRoYW5rcyFcbkJvYi14IEpvaG46IEkgYW0gZ29vZCB0aGFua3MhXG5Ob3RlIHJpZ2h0IG9mIEpvaG46IEJvYiB0aGlua3MgYSBsb25nPGJyLz5sb25nIHRpbWUsIHNvIGxvbmc8YnIvPnRoYXQgdGhlIHRleHQgZG9lczxici8-bm90IGZpdCBvbiBhIHJvdy5cbiUlLVxuQm9iLS0-QWxpY2U6IENoZWNraW5nIHdpdGggSm9obi4uLlxuQWxpY2UtPkpvaG46IFllcy4uLiBKb2huLCBob3cgYXJlIHlvdT8iLCJtZXJtYWlkIjpudWxsfQ" /></p>
-
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdIiwibWVybWFpZCI6bnVsbH0" /></p>
-
-<h3 id="3-class-diagram">3. Class diagram</h3>
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5BbmltYWwgPHwtLSBEdWNrXG5BbmltYWwgPHwtLSBGaXNoXG5BbmltYWwgPHwtLSBaZWJyYVxuQW5pbWFsIDogK2ludCBhZ2VcbkFuaW1hbCA6ICtTdHJpbmcgZ2VuZGVyXG5BbmltYWw6ICtpc01hbW1hbCgpXG5BbmltYWw6ICttYXRlKClcbmNsYXNzIER1Y2t7XG4rU3RyaW5nIGJlYWtDb2xvclxuK3N3aW0oKVxuK3F1YWNrKClcbn1cbmNsYXNzIEZpc2h7XG4taW50IHNpemVJbkZlZXRcbi1jYW5FYXQoKVxufVxuY2xhc3MgWmVicmF7XG4rYm9vbCBpc193aWxkXG4rcnVuKClcbn0iLCJtZXJtYWlkIjpudWxsfQ" /></p>
-
-<h3 id="4-state-diagram">4. State diagram</h3>
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic3RhdGVEaWFncmFtXG5bKl0gLS0-IFN0aWxsXG5TdGlsbCAtLT4gWypdXG4lJS1cblN0aWxsIC0tPiBNb3Zpbmdcbk1vdmluZyAtLT4gU3RpbGxcbk1vdmluZyAtLT4gQ3Jhc2hcbkNyYXNoIC0tPiBbKl0iLCJtZXJtYWlkIjpudWxsfQ" /></p>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="mermaid" /><summary type="html"><![CDATA[1. Pie chart]]></summary></entry><entry><title type="html">Plantuml example</title><link href="http://localhost:4000/example/2017/12/04/plantuml-example.html" rel="alternate" type="text/html" title="Plantuml example" /><published>2017-12-04T00:00:00+09:00</published><updated>2017-12-04T00:00:00+09:00</updated><id>http://localhost:4000/example/2017/12/04/plantuml-example</id><content type="html" xml:base="http://localhost:4000/example/2017/12/04/plantuml-example.html"><![CDATA[<h2 id="my-first-plantuml">My First PlantUML</h2>
-
-<h3 id="plantuml-block-1">PlantUML Block-1</h3>
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a426f62202d3e20416c696365203a2068656c6c6f0a40656e64756d6c" /></p>
-
-<h3 id="plantuml-block-2">PlantUML Block-2</h3>
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a426f62202d3e20416c696365203a2068656c6c6f20776f726c640a40656e64756d6c" /></p>
-
-<h3 id="plantuml-block-3">PlantUML Block-3</h3>
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a282a29202d2d3e2022496e697469616c697a6174696f6e220a0a69662022536f6d65205465737422207468656e0a20202d2d3e5b747275655d2022536f6d65204163746976697479220a20202d2d3e2022416e6f74686572206163746976697479220a20202d72696768742d3e20282a290a656c73650a20202d3e5b66616c73655d2022536f6d657468696e6720656c7365220a20202d2d3e5b456e64696e672070726f636573735d20282a290a656e6469660a40656e64756d6c" /></p>
-
-<h3 id="plantuml-block-4">PlantUML Block-4</h3>
-
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a736b696e706172616d2068616e647772697474656e20747275650a0a736b696e706172616d2075736563617365207b0a20204261636b67726f756e64436f6c6f72204461726b536561477265656e0a2020426f72646572436f6c6f72204461726b536c617465477261790a0a20204261636b67726f756e64436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a2020426f72646572436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a0a20204172726f77436f6c6f72204f6c6976650a20204163746f72426f72646572436f6c6f7220626c61636b0a20204163746f72466f6e744e616d6520436f75726965720a0a20204163746f724261636b67726f756e64436f6c6f723c3c2048756d616e203e3e20476f6c640a7d0a0a55736572203c3c2048756d616e203e3e0a3a4d61696e2044617461626173653a206173204d7953716c203c3c204170706c69636174696f6e203e3e0a28537461727429203c3c204f6e652053686f74203e3e0a2855736520746865206170706c69636174696f6e29206173202855736529203c3c204d61696e203e3e0a0a55736572202d3e20285374617274290a55736572202d2d3e2028557365290a0a4d7953716c202d2d3e2028557365290a0a40656e64756d6c" /></p>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="plantuml" /><summary type="html"><![CDATA[My First PlantUML]]></summary></entry></feed>
+</table>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="table" /><summary type="html"><![CDATA[Table example as below]]></summary></entry></feed>
