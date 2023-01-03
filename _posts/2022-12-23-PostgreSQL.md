@@ -24,7 +24,7 @@ Use Ubuntu with WSL2.
   
 ----
 ### PostgreSQL cluster structure
-<img src="./images/postgreSQL cluster structure.png" />
+<img src="/assets/posts/postgreSQL cluster structure.png" />
   
 We need to make cluster.  
 It can be made the below command.  

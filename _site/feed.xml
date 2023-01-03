@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-02T17:26:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">2023 New Year First Post</title><link href="http://localhost:4000/daily_report/2023/01/02/New-Year.html" rel="alternate" type="text/html" title="2023 New Year First Post" /><published>2023-01-02T00:00:00+09:00</published><updated>2023-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily_report/2023/01/02/New-Year</id><content type="html" xml:base="http://localhost:4000/daily_report/2023/01/02/New-Year.html"><![CDATA[<p>2023/01/02 First work at the Hansol Inticube on 2023.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-03T17:46:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">Wireshark</title><link href="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html" rel="alternate" type="text/html" title="Wireshark" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-03T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/03/Wireshark</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html"><![CDATA[<p>2023/01/03 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>전홍렬</strong>.</p>
+
+<h2 id="network">Network</h2>
+
+<p>Network means net+works. It has graph structure, so one user is also network.</p>
+
+<h2 id="wireshark">Wireshark</h2>
+
+<p>Wireshart is using when there are some matters in network.</p>
+
+<h3 id="wireshart-install">Wireshart install</h3>
+
+<p><a href="https://www.wireshark.org/#download">download link</a></p>
+
+<h3 id="wireshart-using">Wireshart using</h3>
+
+<p><img src="/assets/images/posts/wireshark_capture.PNG" /><br />
+Then user can see packet status, and make filter using like code.</p>
+
+<h3 id="difference-between-hub-and-switch">Difference between Hub and Switch</h3>
+
+<p>Hub: Broadcasting(all port).<br />
+Switch: Only destination port.</p>
+
+<h3 id="subnet-mask">Subnet Mask</h3>
+
+<p>8bit * 4
+Subnetmask -&gt; before come 0, forward elementries are 1.<br />
+It means 1 doesn’t change other number.</p>
+
+<ul>
+  <li>example.<br />
+IPv4: 1.1.1.1<br />
+Subnetmask: 255.255.255.0<br />
+Change the ip to bit number.<br />
+IPv4: 00000001.00000001.00000001.00000001.<br />
+Subnetmask: 11111111.11111111.11111111.00000000 == 1.1.1.0/24 (24 means numbers of 1)<br />
+So, that could be Ipv4 are 1.1.1.1 ~ 1.1.1.254.<br />
+1.1.1.0 couldn’t be exist and 1.1.1.255 means doing broadcasting. It means send signal to all ports.</li>
+</ul>
+
+<p><strong>MAC address Broadcast: ff:ff:ff:ff:ff:ff</strong></p>
+
+<h3 id="fragmentation">Fragmentation</h3>
+
+<p>We could know the packet is fragmentation, or not using flags of header.<br />
+<img src="/assets/posts/fragmentation.PNG" /><br />
+If the second 0 is 1, it means that is not fragmentation.<br />
+And the above value, Identification prove the second packet and first packet are one packet.</p>
+
+<h3 id="router">Router</h3>
+
+<p>Routing is to find the other network way.</p>
+
+<p>Static Routing: Admin register destination and start point.<br />
+Dynamic Routing: Make Routing Table. (Start point &lt;-&gt; Destination)</p>
+
+<h3 id="gateway">GateWay</h3>
+
+<p>Each Pc, set gateway to broadcast of the same network.</p>
+
+<h2 id="arp-protocol">ARP Protocol</h2>
+
+<p>ARP is used to when user doesn’t know other user’s MAC address.<br />
+So, client send the request to all users of LAN, the right user reply to the user the MAC address.<br />
+Once the ARP request occurs, our computer store it. So, when connects to other user more than twice times, PC could find MAC address easily.</p>
+
+<p><strong>Wireshart could see images of the packet and listen sounds of the packet.</strong></p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="wireshark" /><summary type="html"><![CDATA[2023/01/03 Freshman Training of Hansol Inticube. Instructor is 전홍렬. Network Network means net+works. It has graph structure, so one user is also network. Wireshark Wireshart is using when there are some matters in network. Wireshart install download link Wireshart using Then user can see packet status, and make filter using like code. Difference between Hub and Switch Hub: Broadcasting(all port). Switch: Only destination port. Subnet Mask 8bit * 4 Subnetmask -&gt; before come 0, forward elementries are 1. It means 1 doesn’t change other number. example. IPv4: 1.1.1.1 Subnetmask: 255.255.255.0 Change the ip to bit number. IPv4: 00000001.00000001.00000001.00000001. Subnetmask: 11111111.11111111.11111111.00000000 == 1.1.1.0/24 (24 means numbers of 1) So, that could be Ipv4 are 1.1.1.1 ~ 1.1.1.254. 1.1.1.0 couldn’t be exist and 1.1.1.255 means doing broadcasting. It means send signal to all ports. MAC address Broadcast: ff:ff:ff:ff:ff:ff Fragmentation We could know the packet is fragmentation, or not using flags of header. If the second 0 is 1, it means that is not fragmentation. And the above value, Identification prove the second packet and first packet are one packet. Router Routing is to find the other network way. Static Routing: Admin register destination and start point. Dynamic Routing: Make Routing Table. (Start point &lt;-&gt; Destination) GateWay Each Pc, set gateway to broadcast of the same network. ARP Protocol ARP is used to when user doesn’t know other user’s MAC address. So, client send the request to all users of LAN, the right user reply to the user the MAC address. Once the ARP request occurs, our computer store it. So, when connects to other user more than twice times, PC could find MAC address easily. Wireshart could see images of the packet and listen sounds of the packet.]]></summary></entry><entry><title type="html">2023 New Year First Post</title><link href="http://localhost:4000/daily_report/2023/01/02/New-Year.html" rel="alternate" type="text/html" title="2023 New Year First Post" /><published>2023-01-02T00:00:00+09:00</published><updated>2023-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily_report/2023/01/02/New-Year</id><content type="html" xml:base="http://localhost:4000/daily_report/2023/01/02/New-Year.html"><![CDATA[<p>2023/01/02 First work at the Hansol Inticube on 2023.<br />
 Nothing to do…</p>]]></content><author><name>Jian Kim</name></author><category term="Daily_Report" /><summary type="html"><![CDATA[2023/01/02 First work at the Hansol Inticube on 2023. Nothing to do…]]></summary></entry><entry><title type="html">Linux Command &amp;amp; Shell Script</title><link href="http://localhost:4000/freshman/training/2022/12/28/Linux-shell.html" rel="alternate" type="text/html" title="Linux Command &amp;amp; Shell Script" /><published>2022-12-28T00:00:00+09:00</published><updated>2022-12-28T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2022/12/28/Linux-shell</id><content type="html" xml:base="http://localhost:4000/freshman/training/2022/12/28/Linux-shell.html"><![CDATA[<p>2022/12/16 Freshman Training of Hansol Inticube.<br />
 Instructor is <strong>김희태</strong>.</p>
 
@@ -55,7 +123,7 @@ MySQL and MariaDB are also free Database, but the two has some matters, we usual
 
 <hr />
 <h3 id="postgresql-cluster-structure">PostgreSQL cluster structure</h3>
-<p><img src="./images/postgreSQL cluster structure.png" /></p>
+<p><img src="/assets/posts/postgreSQL cluster structure.png" /></p>
 
 <p>We need to make cluster.<br />
 It can be made the below command.</p>
@@ -314,348 +382,4 @@ some of his greatest musical breakthroughs in songs such as bad guy, bury a frie
 
 <h2 id="this-is-the-poster-image">This is the poster image</h2>
 <p>In modern browsers, adding a video to your page is as easy as adding an image. No longer do you need to deal with special plug-ins or require crazy markup, you can do it with a single element.
-<img src="//www.html5rocks.com/en/tutorials/video/basics/devstories.webm" alt="video" /></p>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="video" /><summary type="html"><![CDATA[Canon in D (Pachelbel’s Canon) - Cello &amp; Piano [BEST WEDDING VERSION] Some of you know that we occasionally play for weddings. As you can imagine, we get a LOT of requests for Canon in D, and we discovered that there were no good arrangements available anywhere for piano and cello! Hard to believe given its popularity. So we decided to make our own! We tried to stick as closely to the original as possible (which was written for three violins and basso continuo), and we performed it not at a snail’s pace so the bride can actually make it down the aisle without putting everyone to sleep. 🙊(Yeah, we said it! Nobody likes a slow processional!) Also, the number one complaint about this piece from cellists is always how booooring it is to play because they literally have to play the same 8 bass notes over and over for the entire piece. Problem solved with this arrangement because the cello never has to play the bass! 🙌(The piano does, but we get lots of other fun stuff too so it’s ok!) So for all you musicians out there playing weddings, we hope you enjoy playing this arrangement a little more than the ones you were used to…You can get it from www.musicnotes.com. 😊Be sure to let us know in the comments if you do!]]></summary></entry><entry><title type="html">Table example</title><link href="http://localhost:4000/example/2017/12/15/table-example.html" rel="alternate" type="text/html" title="Table example" /><published>2017-12-15T00:00:00+09:00</published><updated>2017-12-15T00:00:00+09:00</updated><id>http://localhost:4000/example/2017/12/15/table-example</id><content type="html" xml:base="http://localhost:4000/example/2017/12/15/table-example.html"><![CDATA[<h2 id="table-example-as-below">Table example as below</h2>
-
-<p><strong>For now, these extended features are provided:</strong></p>
-
-<ul>
-  <li>Cells spanning multiple columns</li>
-  <li>Cells spanning multiple rows</li>
-  <li>Cells text align separately</li>
-  <li>Table header not required</li>
-  <li>Grouped table header rows or data rows</li>
-</ul>
-
-<h3 id="rowspan-and-colspan">Rowspan and Colspan</h3>
-<p>^^ in a cell indicates it should be merged with the cell above.<br />
-This feature is contributed by <a href="https://github.com/pmccloghrylaing">pmccloghrylaing</a>.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: right">Stage</th>
-      <th style="text-align: right">Direct Products</th>
-      <th style="text-align: right">ATP Yields</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: right">Glycolysis</td>
-      <td style="text-align: right">2 ATP                   |</td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: right">^^</td>
-      <td style="text-align: right">2 NADH</td>
-      <td style="text-align: right">3–5 ATP</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">Pyruvaye oxidation</td>
-      <td style="text-align: right">2 NADH</td>
-      <td style="text-align: right">5 ATP</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">Citric acid cycle</td>
-      <td style="text-align: right">2 ATP           |</td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: right">^^</td>
-      <td style="text-align: right">6 NADH</td>
-      <td style="text-align: right">15 ATP</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">^^</td>
-      <td style="text-align: right">2 FADH</td>
-      <td style="text-align: right">3 ATP</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">30–32 ATP                         ||</td>
-      <td style="text-align: right"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<p>[ Net ATP yields per hexose]</p>
-
-<h3 id="multiline">Multiline</h3>
-<p>A backslash at end to join cell contents with the following lines.<br />
-This feature is contributed by <a href="https://github.com/Lucas-C">Lucas-C</a>.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">:     Easy Multiline     :||</th>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange  \</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange  \</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange  \</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="headerless">Headerless</h3>
-<p>Table header can be eliminated.</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>♜</td>
-      <td> </td>
-      <td>♝</td>
-      <td>♛</td>
-      <td>♚</td>
-      <td>♝</td>
-      <td>♞</td>
-      <td>♜</td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>♟</td>
-      <td>♟</td>
-      <td>♟</td>
-      <td> </td>
-      <td>♟</td>
-      <td>♟</td>
-      <td>♟</td>
-    </tr>
-    <tr>
-      <td>♟</td>
-      <td> </td>
-      <td>♞</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>♗</td>
-      <td> </td>
-      <td> </td>
-      <td>♟</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>♙</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>♘</td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>♙</td>
-      <td>♙</td>
-      <td>♙</td>
-      <td>♙</td>
-      <td> </td>
-      <td>♙</td>
-      <td>♙</td>
-      <td>♙</td>
-    </tr>
-    <tr>
-      <td>♖</td>
-      <td>♘</td>
-      <td>♗</td>
-      <td>♕</td>
-      <td>♔</td>
-      <td> </td>
-      <td> </td>
-      <td>♖</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|:     Fruits <span class="se">\|\|</span> Food           :|||
-|:-------- |:-------- |:------------ |
-| Apple    |: Apple  :|    Apple     <span class="err">\</span>
-| Banana   |  Banana  |    Banana    <span class="err">\</span>
-| Orange   |  Orange  |    Orange    |
-|:   Rowspan is 5   :||:  How's it? :|
-|^^   A. Peach       ||^^ 1. Fine    |
-|^^   B. Orange      ||^^ 2. Bad  $I = <span class="se">\i</span>nt <span class="se">\r</span>ho R^{2} dV$     |
-|^^   C. Banana      ||   It's OK! !<span class="p">[</span><span class="nv">example image</span><span class="p">][</span><span class="ss">my-image</span><span class="p">]</span>  |
-</code></pre></div></div>
-
-<h3 id="text-alignment">Text Alignment</h3>
-<p>Table cell can be set alignment separately.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">\:Fruits         |</th>
-      <th style="text-align: left">Food   :</th>
-      <th style="text-align: left"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left">Fruits\::        |</th>
-      <th style="text-align: left"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">: \:Fruits       :|</th>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left">:       Food     :|</th>
-      <th style="text-align: left"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Orange</td>
-      <td style="text-align: left">:   Strawberry    :</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Apple  &amp;  Banana |</td>
-      <td style="text-align: left">^^</td>
-      <td style="text-align: left">Peach        :|</td>
-      <td style="text-align: left"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
-    <tr>
-      <td>: \:Fruits       :|</td>
-      <td> </td>
-      <td>:       Food     :|</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Apple</td>
-      <td>Banana</td>
-      <td>Orange</td>
-      <td>:   Strawberry    :</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">:     Fruits || Food           :||</th>
-      <th style="text-align: left"> </th>
-      <th style="text-align: left"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Apple</td>
-      <td style="text-align: left">: Apple  :</td>
-      <td style="text-align: left">Apple     \</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Banana</td>
-      <td style="text-align: left">Banana    \</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Orange</td>
-      <td style="text-align: left">Orange</td>
-      <td style="text-align: left">Orange</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">:   Rowspan is 5   :|</td>
-      <td style="text-align: left">:  How’s it? :</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">^^   A. Peach       |</td>
-      <td style="text-align: left">^^ 1. Fine</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">^^   B. Orange      |</td>
-      <td style="text-align: left">^^ 2. Bad  $I = \int \rho R^{2} dV$</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">^^   C. Banana      |</td>
-      <td style="text-align: left">It’s OK! ![example image](http://www.unexpected-vortices.com/sw/rippledoc/example-image.jpg "An exemplary image")</td>
-      <td style="text-align: left"> </td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="table" /><summary type="html"><![CDATA[Table example as below]]></summary></entry></feed>
+<img src="//www.html5rocks.com/en/tutorials/video/basics/devstories.webm" alt="video" /></p>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="video" /><summary type="html"><![CDATA[Canon in D (Pachelbel’s Canon) - Cello &amp; Piano [BEST WEDDING VERSION] Some of you know that we occasionally play for weddings. As you can imagine, we get a LOT of requests for Canon in D, and we discovered that there were no good arrangements available anywhere for piano and cello! Hard to believe given its popularity. So we decided to make our own! We tried to stick as closely to the original as possible (which was written for three violins and basso continuo), and we performed it not at a snail’s pace so the bride can actually make it down the aisle without putting everyone to sleep. 🙊(Yeah, we said it! Nobody likes a slow processional!) Also, the number one complaint about this piece from cellists is always how booooring it is to play because they literally have to play the same 8 bass notes over and over for the entire piece. Problem solved with this arrangement because the cello never has to play the bass! 🙌(The piano does, but we get lots of other fun stuff too so it’s ok!) So for all you musicians out there playing weddings, we hope you enjoy playing this arrangement a little more than the ones you were used to…You can get it from www.musicnotes.com. 😊Be sure to let us know in the comments if you do!]]></summary></entry></feed>
