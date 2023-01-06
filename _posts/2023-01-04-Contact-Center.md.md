@@ -25,7 +25,7 @@ Chat bot is that the machine response, but call center response about multi chan
   
 # Contact Center  
   
-<img src="/assets/images/posts/contact_center.jpeg"/>
+![contact_center](https://user-images.githubusercontent.com/46213631/210913797-8934b677-1fdb-44b4-8abd-5089ccd0eb3f.jpeg)  
   
 CTI system could be genesis.  
 Avaya PBX and genessis, Voice SBC, etc. could replace the equiment that receve to call of outside.  

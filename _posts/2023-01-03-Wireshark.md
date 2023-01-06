@@ -23,7 +23,7 @@ Wireshart is using when there are some matters in network.
   
 # Wireshart using
   
-<img src="/assets/images/posts/wireshark_capture.PNG"/>  
+<img width="1280" alt="wireshark_capture" src="https://user-images.githubusercontent.com/46213631/210913286-f9acf127-023a-4267-8b1f-b65bc1733611.PNG">  
 Then user can see packet status, and make filter using like code.  
 
 ## Difference between Hub and Switch
@@ -51,7 +51,7 @@ So, that could be Ipv4 are 1.1.1.1 ~ 1.1.1.254.
 # Fragmentation
   
 We could know the packet is fragmentation, or not using flags of header.  
-<img src="/assets/posts/fragmentation.PNG"/>  
+<img width="368" alt="fragmentation" src="https://user-images.githubusercontent.com/46213631/210913632-8120a05b-421d-474b-a470-64cccb49cfba.PNG">  
 If the second 0 is 1, it means that is not fragmentation.  
 And the above value, Identification prove the second packet and first packet are one packet.  
   
