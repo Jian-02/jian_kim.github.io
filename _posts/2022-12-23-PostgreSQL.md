@@ -14,7 +14,7 @@ PostgreSQL is famous as one of free source DataBase.
 MySQL and MariaDB are also free Database, but the two has some matters, we usually use PostgreSQL.  
   
 ----
-### Install PostgreSQL on Ubuntu
+# Install PostgreSQL on Ubuntu
 Use Ubuntu with WSL2.  
 * WSL install on Windows PowerShell
 ```wsl --install```
@@ -23,7 +23,7 @@ Use Ubuntu with WSL2.
 ```sudo apt-get install postgresql postgresql-contrib```
   
 ----
-### PostgreSQL cluster structure
+# PostgreSQL cluster structure
 <img src="/assets/posts/postgreSQL cluster structure.png" />
   
 We need to make cluster.  

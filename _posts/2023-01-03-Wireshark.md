@@ -9,7 +9,7 @@ tags: [network,wireshark]
 2023/01/03 Freshman Training of Hansol Inticube.  
 Instructor is **전홍렬**.  
 
-## Network  
+# Network  
 
 Network means net+works. It has graph structure, so one user is also network.  
 
@@ -17,21 +17,21 @@ Network means net+works. It has graph structure, so one user is also network.
 
 Wireshart is using when there are some matters in network.  
   
-### Wireshart install  
+# Wireshart install  
 
 [download link](https://www.wireshark.org/#download)  
   
-### Wireshart using
+# Wireshart using
   
 <img src="/assets/images/posts/wireshark_capture.PNG"/>  
 Then user can see packet status, and make filter using like code.  
 
-### Difference between Hub and Switch
+## Difference between Hub and Switch
   
 Hub: Broadcasting(all port).  
 Switch: Only destination port.  
   
-### Subnet Mask
+# Subnet Mask
   
 8bit * 4
 Subnetmask -> before come 0, forward elementries are 1.  
@@ -48,25 +48,25 @@ So, that could be Ipv4 are 1.1.1.1 ~ 1.1.1.254.
   
 **MAC address Broadcast: ff:ff:ff:ff:ff:ff**
   
-### Fragmentation
+# Fragmentation
   
 We could know the packet is fragmentation, or not using flags of header.  
 <img src="/assets/posts/fragmentation.PNG"/>  
 If the second 0 is 1, it means that is not fragmentation.  
 And the above value, Identification prove the second packet and first packet are one packet.  
   
-### Router
+# Router
   
 Routing is to find the other network way.  
   
 Static Routing: Admin register destination and start point.  
 Dynamic Routing: Make Routing Table. (Start point <-> Destination)  
   
-### GateWay
+# GateWay
   
 Each Pc, set gateway to broadcast of the same network.  
   
-## ARP Protocol
+# ARP Protocol
   
 ARP is used to when user doesn't know other user's MAC address.  
 So, client send the request to all users of LAN, the right user reply to the user the MAC address.  

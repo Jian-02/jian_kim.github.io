@@ -1,7 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-03T17:46:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">Wireshark</title><link href="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html" rel="alternate" type="text/html" title="Wireshark" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-03T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/03/Wireshark</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html"><![CDATA[<p>2023/01/03 Freshman Training of Hansol Inticube.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-06T10:39:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">IS-IVR solution</title><link href="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html" rel="alternate" type="text/html" title="IS-IVR solution" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/06/IS-IVR</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html"><![CDATA[<p>2023/01/06 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>김지민</strong>.</p>
+
+<h1 id="is-ivr">IS-IVR</h1>
+
+<p>IS-IVR is hansol’s solution like avaya and genesys.<br />
+Languages are Java, C++.</p>
+
+<ul>
+  <li>OAMP : Like previous tracking web site. 1 per office.</li>
+</ul>
+
+<h1 id="is-hmp">IS-HMP</h1>
+
+<p>IS-HMP is a solution maintance.<br />
+Languages are C++, Java, Python.</p>
+
+<h1 id="ivr">IVR</h1>
+
+<p>IVR is similar to ARS.<br />
+Simply, IVR is developemnt of ARS.<br />
+The differences is that ARS doesn’t have exclude system, but IVR has that.<br />
+And IVR could provides customer self service and sned an important informations.<br />
+Original IVR(ARS) has a limit that doesn’t have visuzlizer thing. So it’s to become visualizer ARS(IVR with WEB).</p>
+
+<ul>
+  <li>DTMF(Dual Tone Multiple Frequency)</li>
+  <li>Signal that communicate withing call centers.</li>
+</ul>
+
+<h1 id="web-ars">WEB ARS</h1>
+
+<p>IVR and web ticks, so if user take off the call user couldn’t use the service.</p>
+
+<h1 id="digital-ars">Digital ARS</h1>
+
+<p>IVR + Digital Channel.<br />
+It could be service the service only.</p>
+
+<ul>
+  <li>On-premise vs Off-premise(Cloud)</li>
+  <li>On-premise is to place the server on office. Off-premise is to have remote server.</li>
+</ul>
+
+<h2 id="is-ivr-1">IS-IVR</h2>
+
+<p>IS-IVR = IVR + OAMP</p>
+
+<ul>
+  <li>Scenario Designer: Provide as program. Other solution(genesys, avaya) provide also scenario designer but that’s not program.</li>
+</ul>
+
+<p>IVR server must be more than 2. Because some matter could be exist. And region also.</p>
+
+<h1 id="is-ivr-advatage">IS-IVR advatage</h1>
+
+<p><strong>Customizing &amp; Flexibility</strong>.</p>
+<ul>
+  <li>Provides various OS.</li>
+  <li>
+    <p>Provicdes customer that they requires.</p>
+  </li>
+  <li>Manage holiday. (Genesys doesn’t.)</li>
+  <li>Log Viewer. (Genesys provide SIP log and CTI log separately, but it doesn’t.)</li>
+</ul>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="ivr" /><summary type="html"><![CDATA[2023/01/06 Freshman Training of Hansol Inticube. Instructor is 김지민. IS-IVR]]></summary></entry><entry><title type="html">Presentation Prepaare</title><link href="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html" rel="alternate" type="text/html" title="Presentation Prepaare" /><published>2023-01-05T00:00:00+09:00</published><updated>2023-01-05T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html"><![CDATA[<p>2023/01/05 Freshman Training of Hansol Inticube.<br />
+Today instructor had a corona virus, so genesis course was canceled.</p>
+
+<h1 id="presentation-prepare">Presentation prepare</h1>
+
+<p>Presentation subject is <code class="language-plaintext highlighter-rouge">IVR outbinding</code> with other team(inbinding).<br />
+So, planed to make a call center web using react.<br />
+And prepare the contents about ivr outbinding with <code class="language-plaintext highlighter-rouge">권순욱</code>.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="contact_center" /><category term="ivr" /><summary type="html"><![CDATA[2023/01/05 Freshman Training of Hansol Inticube. Today instructor had a corona virus, so genesis course was canceled.]]></summary></entry><entry><title type="html">Contact Center &amp;amp; VoIP</title><link href="http://localhost:4000/freshman/training/2023/01/04/Contact-Center.md.html" rel="alternate" type="text/html" title="Contact Center &amp;amp; VoIP" /><published>2023-01-04T00:00:00+09:00</published><updated>2023-01-04T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/04/Contact-Center.md</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/04/Contact-Center.md.html"><![CDATA[<p>2023/01/04 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>이찬선</strong>.</p>
+
+<h1 id="call-center">Call center</h1>
+
+<p>Chat bot is that the machine response, but call center response about multi channer. So, it has access ability.</p>
+
+<ul>
+  <li>IPCC: Like Call center.</li>
+  <li>
+    <p>IPT: Like Office.</p>
+  </li>
+  <li>IBR: auto response system.</li>
+  <li>
+    <p>Bandwith unit is bps -&gt; bytes per sec.</p>
+  </li>
+  <li>
+    <p>Rack: Usually 42U. U means romms related to shelf.</p>
+  </li>
+  <li>UPS: 무정전 전원공급장치  (uninterruptible power supply)</li>
+</ul>
+
+<h1 id="contact-center">Contact Center</h1>
+
+<p><img src="/assets/images/posts/contact_center.jpeg" /></p>
+
+<p>CTI system could be genesis.<br />
+Avaya PBX and genessis, Voice SBC, etc. could replace the equiment that receve to call of outside.</p>
+
+<ul>
+  <li>Our phone number (like 010-xxxx-xxxx) is DNIS. It’s similar to DNS.</li>
+</ul>
+
+<p>** TODO:Add more contents. **</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="contact_center" /><category term="voip" /><summary type="html"><![CDATA[2023/01/04 Freshman Training of Hansol Inticube. Instructor is 이찬선. Call center Chat bot is that the machine response, but call center response about multi channer. So, it has access ability. IPCC: Like Call center. IPT: Like Office. IBR: auto response system. Bandwith unit is bps -&gt; bytes per sec. Rack: Usually 42U. U means romms related to shelf. UPS: 무정전 전원공급장치 (uninterruptible power supply) Contact Center CTI system could be genesis. Avaya PBX and genessis, Voice SBC, etc. could replace the equiment that receve to call of outside. Our phone number (like 010-xxxx-xxxx) is DNIS. It’s similar to DNS. ** TODO:Add more contents. **]]></summary></entry><entry><title type="html">Wireshark</title><link href="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html" rel="alternate" type="text/html" title="Wireshark" /><published>2023-01-03T00:00:00+09:00</published><updated>2023-01-03T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/03/Wireshark</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/03/Wireshark.html"><![CDATA[<p>2023/01/03 Freshman Training of Hansol Inticube.<br />
 Instructor is <strong>전홍렬</strong>.</p>
 
-<h2 id="network">Network</h2>
+<h1 id="network">Network</h1>
 
 <p>Network means net+works. It has graph structure, so one user is also network.</p>
 
@@ -9,21 +113,21 @@ Instructor is <strong>전홍렬</strong>.</p>
 
 <p>Wireshart is using when there are some matters in network.</p>
 
-<h3 id="wireshart-install">Wireshart install</h3>
+<h1 id="wireshart-install">Wireshart install</h1>
 
 <p><a href="https://www.wireshark.org/#download">download link</a></p>
 
-<h3 id="wireshart-using">Wireshart using</h3>
+<h1 id="wireshart-using">Wireshart using</h1>
 
 <p><img src="/assets/images/posts/wireshark_capture.PNG" /><br />
 Then user can see packet status, and make filter using like code.</p>
 
-<h3 id="difference-between-hub-and-switch">Difference between Hub and Switch</h3>
+<h2 id="difference-between-hub-and-switch">Difference between Hub and Switch</h2>
 
 <p>Hub: Broadcasting(all port).<br />
 Switch: Only destination port.</p>
 
-<h3 id="subnet-mask">Subnet Mask</h3>
+<h1 id="subnet-mask">Subnet Mask</h1>
 
 <p>8bit * 4
 Subnetmask -&gt; before come 0, forward elementries are 1.<br />
@@ -42,25 +146,25 @@ So, that could be Ipv4 are 1.1.1.1 ~ 1.1.1.254.<br />
 
 <p><strong>MAC address Broadcast: ff:ff:ff:ff:ff:ff</strong></p>
 
-<h3 id="fragmentation">Fragmentation</h3>
+<h1 id="fragmentation">Fragmentation</h1>
 
 <p>We could know the packet is fragmentation, or not using flags of header.<br />
 <img src="/assets/posts/fragmentation.PNG" /><br />
 If the second 0 is 1, it means that is not fragmentation.<br />
 And the above value, Identification prove the second packet and first packet are one packet.</p>
 
-<h3 id="router">Router</h3>
+<h1 id="router">Router</h1>
 
 <p>Routing is to find the other network way.</p>
 
 <p>Static Routing: Admin register destination and start point.<br />
 Dynamic Routing: Make Routing Table. (Start point &lt;-&gt; Destination)</p>
 
-<h3 id="gateway">GateWay</h3>
+<h1 id="gateway">GateWay</h1>
 
 <p>Each Pc, set gateway to broadcast of the same network.</p>
 
-<h2 id="arp-protocol">ARP Protocol</h2>
+<h1 id="arp-protocol">ARP Protocol</h1>
 
 <p>ARP is used to when user doesn’t know other user’s MAC address.<br />
 So, client send the request to all users of LAN, the right user reply to the user the MAC address.<br />
@@ -111,7 +215,7 @@ Instructor is <strong>김배일</strong>.</p>
 MySQL and MariaDB are also free Database, but the two has some matters, we usually use PostgreSQL.</p>
 
 <hr />
-<h3 id="install-postgresql-on-ubuntu">Install PostgreSQL on Ubuntu</h3>
+<h1 id="install-postgresql-on-ubuntu">Install PostgreSQL on Ubuntu</h1>
 <p>Use Ubuntu with WSL2.</p>
 <ul>
   <li>WSL install on Windows PowerShell
@@ -122,7 +226,7 @@ MySQL and MariaDB are also free Database, but the two has some matters, we usual
 <code class="language-plaintext highlighter-rouge">sudo apt-get install postgresql postgresql-contrib</code></p>
 
 <hr />
-<h3 id="postgresql-cluster-structure">PostgreSQL cluster structure</h3>
+<h1 id="postgresql-cluster-structure">PostgreSQL cluster structure</h1>
 <p><img src="/assets/posts/postgreSQL cluster structure.png" /></p>
 
 <p>We need to make cluster.<br />
@@ -207,11 +311,11 @@ HTTPS is also place on 7 layer. I don’t know why, HTTPS and SIP is same respon
 
 <hr />
 <h2 id="proxy-redirect-location-server">Proxy, Redirect, Location server</h2>
-<h3 id="proxy-server">Proxy server</h3>
+<h1 id="proxy-server">Proxy server</h1>
 <p>Client send some signal, then proxy server response. Proxy server decide where is the destination. But the exclude doesn’t know where the destination.</p>
-<h3 id="redirect-server">Redirect Server</h3>
+<h1 id="redirect-server">Redirect Server</h1>
 <p>Same to proxy server, but the exclude could know the destination.</p>
-<h3 id="location-server">Location server</h3>
+<h1 id="location-server">Location server</h1>
 <p>It decide where the client post to.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="SIP" /><category term="protocol" /><summary type="html"><![CDATA[2022/12/22 Freshman Training of Hansol Inticube. Instructor is 이소형.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
@@ -255,131 +359,4 @@ HTTPS is also place on 7 layer. I don’t know why, HTTPS and SIP is same respon
 
 <span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">age</span><span class="p">)</span>
-</code></pre></div></div>]]></content><author><name>Jeffrey</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><category term="yat" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">An exhibit of Markdown</title><link href="http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown.html" rel="alternate" type="text/html" title="An exhibit of Markdown" /><published>2018-12-05T00:00:00+09:00</published><updated>2018-12-05T00:00:00+09:00</updated><id>http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown</id><content type="html" xml:base="http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown.html"><![CDATA[<p>This note demonstrates some of what <a href="http://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
-
-<h2 id="an-exhibit-of-markdown">An exhibit of Markdown</h2>
-
-<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn’t automatically save itself.</em></p>
-
-<h2 id="basic-formatting">Basic formatting</h2>
-
-<p>Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</p>
-
-<p>Paragraphs must be separated by a blank line. Basic formatting of <em>italics</em> and <strong>bold</strong> is supported. This <em>can be <strong>nested</strong> like</em> so.</p>
-
-<h2 id="lists">Lists</h2>
-
-<h3 id="ordered-list">Ordered list</h3>
-
-<ol>
-  <li>Item 1</li>
-  <li>A second item</li>
-  <li>Number 3</li>
-  <li>Ⅳ</li>
-</ol>
-
-<p><em>Note: the fourth item uses the Unicode character for <a href="http://www.fileformat.info/info/unicode/char/2163/index.htm">Roman numeral four</a>.</em></p>
-
-<h3 id="unordered-list">Unordered list</h3>
-
-<ul>
-  <li>An item</li>
-  <li>Another item</li>
-  <li>Yet another item</li>
-  <li>And there’s more…</li>
-</ul>
-
-<h2 id="paragraph-modifiers">Paragraph modifiers</h2>
-
-<h3 id="code-block">Code block</h3>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
-</code></pre></div></div>
-
-<p>You can also make <code class="language-plaintext highlighter-rouge">inline code</code> to add code into other things.</p>
-
-<h3 id="quote">Quote</h3>
-
-<blockquote>
-  <p>Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.</p>
-</blockquote>
-
-<h2 id="headings">Headings</h2>
-
-<p>There are six levels of headings. They correspond with the six levels of HTML headings. You’ve probably noticed them already in the page. Each level down uses one more hash character.</p>
-
-<h3 id="headings-can-also-contain-formatting">Headings <em>can</em> also contain <strong>formatting</strong></h3>
-
-<h3 id="they-can-even-contain-inline-code">They can even contain <code class="language-plaintext highlighter-rouge">inline code</code></h3>
-
-<p>Of course, demonstrating what headings look like messes up the structure of the page.</p>
-
-<p>I don’t recommend using more than three or four levels of headings here, because, when you’re smallest heading isn’t too small, and you’re largest heading isn’t too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</p>
-
-<h2 id="urls">URLs</h2>
-
-<p>URLs can be made in a handful of ways:</p>
-
-<ul>
-  <li>A named link to <a href="http://www.markitdown.net/">MarkItDown</a>. The easiest way to do these is to select what you want to make a link and hit <code class="language-plaintext highlighter-rouge">Ctrl+L</code>.</li>
-  <li>Another named link to <a href="http://www.markitdown.net/">MarkItDown</a></li>
-  <li>Sometimes you just want a URL like <a href="http://www.markitdown.net/">http://www.markitdown.net/</a>.</li>
-</ul>
-
-<h2 id="horizontal-rule">Horizontal rule</h2>
-
-<p>A horizontal rule is a line that goes across the middle of the page.</p>
-
-<hr />
-
-<p>It’s sometimes handy for breaking things up.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Markdown can also contain images. I’ll need to add something here sometime.</p>
-
-<h2 id="finally">Finally</h2>
-
-<p>There’s actually a lot more to Markdown than this. See the official <a href="http://daringfireball.net/projects/markdown/basics">introduction</a> and <a href="http://daringfireball.net/projects/markdown/syntax">syntax</a> for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</p>]]></content><author><name>Jian Kim</name></author><category term="markdown" /><category term="example" /><category term="markdown" /><summary type="html"><![CDATA[This note demonstrates some of what Markdown is capable of doing.]]></summary></entry><entry><title type="html">Mathjax Test</title><link href="http://localhost:4000/markdown/2018/05/26/mathjax-test.html" rel="alternate" type="text/html" title="Mathjax Test" /><published>2018-05-26T00:00:00+09:00</published><updated>2018-05-26T00:00:00+09:00</updated><id>http://localhost:4000/markdown/2018/05/26/mathjax-test</id><content type="html" xml:base="http://localhost:4000/markdown/2018/05/26/mathjax-test.html"><![CDATA[<ul>
-  <li>A safe integer is an integer that
-    <ul>
-      <li>can be exactly represented as an IEEE-754 double precision number, and</li>
-      <li>whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation</li>
-    </ul>
-  </li>
-  <li>For example, $ 2 ^ {53} - 1 $ is a safe integer,
-    <ul>
-      <li>it can be exactly represented</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>Jian Kim</name></author><category term="markdown" /><category term="test" /><summary type="html"><![CDATA[A safe integer is an integer that can be exactly represented as an IEEE-754 double precision number, and whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation For example, $ 2 ^ {53} - 1 $ is a safe integer, it can be exactly represented]]></summary></entry><entry><title type="html">Video example</title><link href="http://localhost:4000/example/2017/12/18/video-example.html" rel="alternate" type="text/html" title="Video example" /><published>2017-12-18T00:00:00+09:00</published><updated>2017-12-18T00:00:00+09:00</updated><id>http://localhost:4000/example/2017/12/18/video-example</id><content type="html" xml:base="http://localhost:4000/example/2017/12/18/video-example.html"><![CDATA[<h2 id="canon-in-d-pachelbels-canon---cello--piano-best-wedding-version">Canon in D (Pachelbel’s Canon) - Cello &amp; Piano [BEST WEDDING VERSION]</h2>
-<p>Some of you know that we occasionally play for weddings. As you can imagine, we get a LOT of requests for Canon in D, and we discovered that there were no good arrangements available anywhere for piano and cello! Hard to believe given its popularity. So we decided to make our own! We tried to stick as closely to the original as possible (which was written for three violins and basso continuo), and we performed it <em>not</em> at a snail’s pace so the bride can actually make it down the aisle without putting everyone to sleep. 🙊(Yeah, we said it! Nobody likes a slow processional!) Also, the number one complaint about this piece from cellists is always how booooring it is to play because they literally have to play the same 8 bass notes over and over for the entire piece. Problem solved with this arrangement because the cello never has to play the bass! 🙌(The piano does, but we get lots of other fun stuff too so it’s ok!) So for all you musicians out there playing weddings, we hope you enjoy playing this arrangement a little more than the ones you were used to…You can get it from www.musicnotes.com. 😊Be sure to let us know in the comments if you do!</p>
-
-<p><img src="//www.youtube.com/watch?v=Ptk_1Dc2iPY" alt="" /></p>
-
-<h2 id="gucci-hallucination--the-line-animation--gucci">GUCCI HALLUCINATION / THE LINE ANIMATION / GUCCI</h2>
-<p>BACKGROUND /</p>
-
-<p>Gucci share their creative vision through a series of surreal animated paintings by acclaimed artist Ignasi Monreal and The Line Animation studio. The animations make up part of a larger campaign shared via social media, above the line and print.</p>
-
-<p>APPROACH /</p>
-
-<p>Our aim was to ground and accentuate the outlandish scenarios with ambient sound design. Neither proclaiming to be positive or negative, the sound conveys a sense of the uncanny and leaves the audience with nothing but their own interpretations. their creative vision through a series of surreal animated paintings by acclaimed artist Ignasi Monreal and The Line Animation studio. The animations make up part of a larger campaign shared via social media, above the line and print.</p>
-
-<p><img src="https://vimeo.com/263856289" alt="" /></p>
-
-<h2 id="finneas-demos-how-he-builds-songs-for-billie-eilish">FINNEAS Demos How He Builds Songs For Billie Eilish</h2>
-<p>Grammy Award-winning musician and producer FINNEAS sits down with Pitchfork and closely examines his creative process while working on some of the biggest hit songs of the past couple years. FINNEAS explores the sounds that brought upon 
-some of his greatest musical breakthroughs in songs such as bad guy, bury a friend, ocean eyes, when the party’s over, I Lost a Friend, Used to This and much more.</p>
-
-<p><img src="https://dai.ly/x7tgcev" alt="" /></p>
-
-<h2 id="2019-bmw-vision-m-next-concept-hd">2019 BMW Vision M NEXT Concept (HD)</h2>
-
-<p>In future, drivers will be able to choose whether they wish to be driven or do the driving themselves. With the BMW Vision M NEXT, the BMW Group is revealing its take on how driving pleasure might look in future. It offers a foretaste of the BMW M brand’s electrified future by placing the focus squarely on the actively engaged driver. Intelligent technologies provide comprehensive yet carefully targeted assistance to turn them into the ultimate driver.</p>
-
-<p><img src="https://www.dailymotion.com/video/x7bur2y" alt="" /></p>
-
-<h2 id="this-is-the-poster-image">This is the poster image</h2>
-<p>In modern browsers, adding a video to your page is as easy as adding an image. No longer do you need to deal with special plug-ins or require crazy markup, you can do it with a single element.
-<img src="//www.html5rocks.com/en/tutorials/video/basics/devstories.webm" alt="video" /></p>]]></content><author><name>Jian Kim</name></author><category term="example" /><category term="video" /><summary type="html"><![CDATA[Canon in D (Pachelbel’s Canon) - Cello &amp; Piano [BEST WEDDING VERSION] Some of you know that we occasionally play for weddings. As you can imagine, we get a LOT of requests for Canon in D, and we discovered that there were no good arrangements available anywhere for piano and cello! Hard to believe given its popularity. So we decided to make our own! We tried to stick as closely to the original as possible (which was written for three violins and basso continuo), and we performed it not at a snail’s pace so the bride can actually make it down the aisle without putting everyone to sleep. 🙊(Yeah, we said it! Nobody likes a slow processional!) Also, the number one complaint about this piece from cellists is always how booooring it is to play because they literally have to play the same 8 bass notes over and over for the entire piece. Problem solved with this arrangement because the cello never has to play the bass! 🙌(The piano does, but we get lots of other fun stuff too so it’s ok!) So for all you musicians out there playing weddings, we hope you enjoy playing this arrangement a little more than the ones you were used to…You can get it from www.musicnotes.com. 😊Be sure to let us know in the comments if you do!]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Jeffrey</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><category term="yat" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>

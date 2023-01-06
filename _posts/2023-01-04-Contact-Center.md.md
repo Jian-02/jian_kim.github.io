@@ -9,7 +9,7 @@ tags: [network,contact_center,voip]
 2023/01/04 Freshman Training of Hansol Inticube.  
 Instructor is **이찬선**.  
 
-### Call center  
+# Call center  
 
 Chat bot is that the machine response, but call center response about multi channer. So, it has access ability.  
 
@@ -23,7 +23,7 @@ Chat bot is that the machine response, but call center response about multi chan
 
 * UPS: 무정전 전원공급장치  (uninterruptible power supply)  
   
-## Contact Center  
+# Contact Center  
   
 <img src="/assets/images/posts/contact_center.jpeg"/>
   
