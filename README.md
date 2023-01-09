@@ -13,6 +13,9 @@
   <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
 </h4>
 
+<h4> Run on local server</h4>
+<p>sudo bundle exec jekyll sesrve</p>
+
 <p align="center">
   <a href="https://jeffreytse.github.io/jekyll-theme-yat">
     <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"

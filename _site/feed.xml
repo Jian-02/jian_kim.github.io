@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-06T10:53:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">IS-IVR solution</title><link href="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html" rel="alternate" type="text/html" title="IS-IVR solution" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/06/IS-IVR</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html"><![CDATA[<p>2023/01/06 Freshman Training of Hansol Inticube.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-09T09:28:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">jian blog</title><subtitle>blog for study.</subtitle><author><name>Jian Kim</name></author><entry><title type="html">CTI &amp;amp; Avaya</title><link href="http://localhost:4000/freshman/training/2023/01/09/CTI-Avaya.html" rel="alternate" type="text/html" title="CTI &amp;amp; Avaya" /><published>2023-01-09T00:00:00+09:00</published><updated>2023-01-09T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/09/CTI-Avaya</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/09/CTI-Avaya.html"><![CDATA[<p>2023/01/09 Freshman Training of Hansol Inticube.<br />
+Instructor is <strong>김지수</strong>.</p>
+
+<h1 id="cti-bridge">CTI Bridge</h1>
+
+<p>CTI: PVX doesn’t know who call, but CTI could know who call using DB.</p>
+
+<p>Avaya doesn’t provide CTI.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="call_center" /><category term="cti" /><summary type="html"><![CDATA[2023/01/09 Freshman Training of Hansol Inticube. Instructor is 김지수. CTI Bridge CTI: PVX doesn’t know who call, but CTI could know who call using DB.]]></summary></entry><entry><title type="html">IS-IVR solution</title><link href="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html" rel="alternate" type="text/html" title="IS-IVR solution" /><published>2023-01-06T00:00:00+09:00</published><updated>2023-01-06T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/06/IS-IVR</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/06/IS-IVR.html"><![CDATA[<p>2023/01/06 Freshman Training of Hansol Inticube.<br />
 Instructor is <strong>김지민</strong>.</p>
 
 <h1 id="is-ivr">IS-IVR</h1>
@@ -62,7 +69,22 @@ It could be service the service only.</p>
   </li>
   <li>Manage holiday. (Genesys doesn’t.)</li>
   <li>Log Viewer. (Genesys provide SIP log and CTI log separately, but it doesn’t.)</li>
-</ul>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="ivr" /><summary type="html"><![CDATA[2023/01/06 Freshman Training of Hansol Inticube. Instructor is 김지민. IS-IVR]]></summary></entry><entry><title type="html">Presentation Prepaare</title><link href="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html" rel="alternate" type="text/html" title="Presentation Prepaare" /><published>2023-01-05T00:00:00+09:00</published><updated>2023-01-05T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html"><![CDATA[<p>2023/01/05 Freshman Training of Hansol Inticube.<br />
+</ul>
+
+<h1 id="is-hmp-1">IS-HMP</h1>
+
+<p><strong>Egnine</strong></p>
+
+<h1 id="aicc-solution">AICC solution</h1>
+
+<ol>
+  <li>음성봇(VGW, STT, TTS, SOE, ISE)</li>
+  <li>챗봇 &lt;-3rd</li>
+  <li>TA &lt;-3rd</li>
+  <li>상담사 어시스턴트 &lt;- 3rd<br />
+(고객 녹취)</li>
+  <li>상담사 script play(보험안내같은 것을 tts를 이용해서 읽게해줘.)</li>
+</ol>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="network" /><category term="ivr" /><summary type="html"><![CDATA[2023/01/06 Freshman Training of Hansol Inticube. Instructor is 김지민. IS-IVR]]></summary></entry><entry><title type="html">Presentation Prepaare</title><link href="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html" rel="alternate" type="text/html" title="Presentation Prepaare" /><published>2023-01-05T00:00:00+09:00</published><updated>2023-01-05T00:00:00+09:00</updated><id>http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare</id><content type="html" xml:base="http://localhost:4000/freshman/training/2023/01/05/Presentation-Prepare.html"><![CDATA[<p>2023/01/05 Freshman Training of Hansol Inticube.<br />
 Today instructor had a corona virus, so genesis course was canceled.</p>
 
 <h1 id="presentation-prepare">Presentation prepare</h1>
@@ -317,47 +339,4 @@ HTTPS is also place on 7 layer. I don’t know why, HTTPS and SIP is same respon
 <h1 id="redirect-server">Redirect Server</h1>
 <p>Same to proxy server, but the exclude could know the destination.</p>
 <h1 id="location-server">Location server</h1>
-<p>It decide where the client post to.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="SIP" /><category term="protocol" /><summary type="html"><![CDATA[2022/12/22 Freshman Training of Hansol Inticube. Instructor is 이소형.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<h2 id="section-1">section 1</h2>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<h2 id="section-2">section 2</h2>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-<p>$ a * b = c ^ b $</p>
-
-<p>$ 2^{\frac{n-1}{3}} $</p>
-
-<p>$ \int_a^b f(x)\,dx. $</p>
-
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World!"</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="c1">// prints 'Hi, Tom' to STDOUT.</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
-  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-    <span class="bp">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
-
-<span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s">"John"</span><span class="p">,</span> <span class="mi">36</span><span class="p">)</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">age</span><span class="p">)</span>
-</code></pre></div></div>]]></content><author><name>Jeffrey</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><category term="yat" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>It decide where the client post to.</p>]]></content><author><name>Jian Kim</name></author><category term="freshman" /><category term="training" /><category term="Network" /><category term="SIP" /><category term="protocol" /><summary type="html"><![CDATA[2022/12/22 Freshman Training of Hansol Inticube. Instructor is 이소형.]]></summary></entry></feed>
