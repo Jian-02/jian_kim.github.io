@@ -53,3 +53,31 @@ And putty `sqlplus genesys/oracle@confserv`
   
 ## CTI Link
 The connection betwenn CTI and PBX.  
+  
+# Genesys CTI Tollbar
+GWS Architecture(Genesys Web Server) has octopus structure. (Cassandra DB, Elastic Search Cluster, Genesys Environment(Config Server, T-Server, Interaction Server, Chat Server), Universal Contact Server)  
+  
+## GWS node
+Cassandra - elasticsearch : much than 3.  
+Use CometD connection.  
+->   
+Change WebSocket server.  
+Use websocket connction.  
+  
+## Genesys IVR Server
+Use PSDK way.  
+<img src="https://user-images.githubusercontent.com/46213631/220859415-ca3b11fd-69f7-44b1-a9e2-223e30671fb6.png">
+  
+## Media GateWay
+Media Gateway change TDM data of PSTN to Packet of IP.  
+  
+## SBC
+SBC(Session Board Controller)  
+SBC is like Media Gateway, send the result of PSTN to SBC of client.  
+They do  
+1. Firewall  
+2. NAT  
+3. Security  
+4. Change Codec  
+5. Translate SIP message(I think it is necessary, because if codec information is changed, the package message must be changed).  
+  
