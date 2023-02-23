@@ -3,7 +3,7 @@ layout: post
 title: Genesys & Network
 subtitle: relationship of genesys and network
 categories: AICC,Genesys
-tags: [AICC, Genesys, Network]
+tags: [AICC, genesys, Network]
 ---
   
 2023/02/23 Genesys & Network course.  
