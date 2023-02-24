@@ -81,3 +81,23 @@ They do
 4. Change Codec  
 5. Translate SIP message(I think it is necessary, because if codec information is changed, the package message must be changed).  
   
+# Genesys Support phone log
+Need to be familiar.  
+AttributeCallType 3 means it's outbound.  
+AttributeCallType 1 means it's internal call.  
+AttributeCallType 2 means It's inbound.  
+  
+ANI: 02-1544-...  
+DNIS: 010-9.....  
+-> It means it's outbound.  
+  
+# Genesys Stat Server
+Stat Server: Real Time Matrix Engine.  
+Stat Server store datas in memory, so they need to much memory.  
+  
+## Genesys CTI Login
+Genesys CTI Login(agent id / agent-logins) = Agent(person information) and Call DNS mapping.  
+When use Genesys Config Manager,  
+add agent to person DB and add the agent-id.  
+Then in support phone, enter the agent id value.  
+  
