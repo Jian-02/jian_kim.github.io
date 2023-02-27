@@ -6,7 +6,7 @@ categories: AICC,Genesys
 tags: [AICC, genesys, Network]
 ---
   
-2023/02/23 Genesys & Network course.  
+2023/02/23 ~ 2023/02/27 Genesys & Network course.  
 The instructor is 추한승.  
   
 -----
@@ -100,4 +100,10 @@ Genesys CTI Login(agent id / agent-logins) = Agent(person information) and Call 
 When use Genesys Config Manager,  
 add agent to person DB and add the agent-id.  
 Then in support phone, enter the agent id value.  
+  
+# Genesys support phone log
+#TODO: to add it
+  
+# Genesys CTI
+#TODO: to add it
   
