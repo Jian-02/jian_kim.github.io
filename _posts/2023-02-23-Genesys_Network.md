@@ -101,9 +101,82 @@ When use Genesys Config Manager,
 add agent to person DB and add the agent-id.  
 Then in support phone, enter the agent id value.  
   
+# VoIP
+VoIP(Voice over Internet Protocol) : transmission of voice traffic over IP networks.  
+VoIP Protocols: Signaling protocols, Media protocols  
+  
+## SIP
+SIP(Session Initiation Protocol)  
+based on UCP and IETF.  
+* Genesys SIP: Signaling protocol 
+
+## H.323
+ Protocol. based on TDP and ITU-T.  
+  
+## RTP/RTCP
+RTP(Real-time Transport Protocol)  
+RTCP(Real-time COntrol Protocol)  
+Could be different the transfer way between SIP and RTP.  
+* SIP transfer way could be long = Transfering data is more faster = The start message(ex. Hi, hello) could be cut.  
+  
+# Genesys SIP
+Genesys SIP can act as Proxy, Register, B2BUA.  
+  
+# Genesys Stream manager
+Genesys stream manager == genesy MCP(Media Control Platform)  
+Main function: Playing announcements, simple prompting,ect...  
+  
+## IP voice quality
+1. delay  
+2. packet loss  
+3. echo compression  
+  
+# SIP packet massage
+  
+<img src="https://user-images.githubusercontent.com/46213631/221750388-485707f3-3b11-4d9e-9abf-6ef559ea91cd.PNG"/>
+  
+INVITE -> start a call.  
+Max-Forwards -> hops of the middle  
+Via -> waypoint(경유지)
+Contact -> real destination address  
+  
+## Response number
+1. 100 -> Trying
+2. 180 -> Ringing
+3. 200 OK
+4. ACK
+5. BYE
+  
 # Genesys support phone log
-#TODO: to add it
+```
+2/27/2023@09:11:44.94
+  Event:EventDNOutOfService
+   Server:65200
+   ThisDN:3011
+   Seconds:1677456704
+   USeconds:97089
+   Server Time:2/27/2023@09:11:44.97
+
+2/27/2023@09:11:51.893
+  Event:EventDNBackInService
+   Server:65200
+   ThisDN:3011
+   Seconds:1677456711
+   USeconds:890700
+   Server Time:2/27/2023@09:11:51.890
+
+```
+  
+In this log, Out of Service -> usually said OOS.  
+OOS check time and reconnect time are managed the oos check option and oos force option.  
+  
+# Practice make genesys stat server and sip server
+/gcti/sipserver/run.sh -> excute arguments: host and port.  
+* host, port : configuration server
   
 # Genesys CTI
 #TODO: to add it
+  
+# Genesys UR Server
+Genesys UR
   
