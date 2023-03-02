@@ -172,11 +172,58 @@ OOS check time and reconnect time are managed the oos check option and oos force
   
 # Practice make genesys stat server and sip server
 /gcti/sipserver/run.sh -> excute arguments: host and port.  
-* host, port : configuration server
+* host, port : configuration server  
+  
+gax -> `Application` -> `sipserver/statserver` -> auto restart option (if check, kill the process but auto restart)  
+  
+need to add config value as text value in `confserver.conf` -> because, confserver is the process that runs at the first time.  
   
 # Genesys CTI
-#TODO: to add it
+## Media Gateway
+Media Gateway translate TDM to IP.  
+  
+# Difference of microSIP and Genesys Support phone
+microSIP: config manager -> `Annex` -> `Tserver` -> `sip-cti-control` -> token value to `talk, homd, dtmf`: need to click the receive button.  
+genesys support phone: doesn't need to click the receive button.  
+--> because the token value means that I hook my phone.  
+  
+# Virtual Queue
+*Need to maaping Virtual Queue and Routing Point*  
+-> When increase the routing points, don't need to modify the code. just mapping virtual queue and routing point.  
+  
+Virtual Queue : focous on statistics. Genesys designed to pass the virtual queue.  
+  
+User can make the virtual queue, and can connect to the virtual queue with routing point using Routing Design.  
+Exampel)  
+`Routing Design` -> `IVR_IN` click -> some target click -> `use virtual queue` click -> select the switch(ex. seoulSIP) -> Then could see the virtual queues of the switch.  
+The virtual queues placed in `Switches` -> `seouldSIP` -> `DNs` of Config Manager.  
+  
+# Make the new application
+There exist sample templates. 
+name -> small leteral  
+server info -> the place where user install the server.  
+ex>   
+```
+host: glab-framework1
+port: 2020
+id: default
+passwd: password
+```
+If install *statserver*, one option value is `no`.  
   
 # Genesys UR Server
-Genesys UR
+Genesys URS(Genesys Unvisersal Routing)  
+Genesys UR is the server that distribute the port, doesn't have the status information.  
+  
+ex> 
+```
+URS ask to StatServer: Who is the longest wait person?  
+T-Server: translate the longest wait, and find the person.  
+```
+So, URS need to high CPU and doesn't need to memory.  
+Stat Server need to high memory.  
+  
+IRD has loader builder == loading and monitoring.  
+In Routing Designer program, `view` tab -> `check intigrety` means check the intigrety(무결성), the red value means the *inconsistency* (불일치)  
+
   
