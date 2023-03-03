@@ -218,7 +218,7 @@ Genesys UR is the server that distribute the port, doesn't have the status infor
 ex> 
 ```
 URS ask to StatServer: Who is the longest wait person?  
-T-Server: translate the longest wait, and find the person.  
+T-Server: **translate** the longest wait, and find the person.  
 ```
 So, URS need to high CPU and doesn't need to memory.  
 Stat Server need to high memory.  
@@ -227,3 +227,35 @@ IRD has loader builder == loading and monitoring.
 In Routing Designer program, `view` tab -> `check intigrety` means check the intigrety(무결성), the red value means the *inconsistency* (불일치)  
 
   
+# OutBound
+## Important things of Outbound
+* Calling List(DB Table)  
+* DNC(Do Not Call)  
+-> Who decline the call  
+  
+Like these things, OCS search the customer information.  
+  
+Example)  
+One customer deny the call center, but it couldn't reflect the Stat Server because it's too fast morning.  
+If the OCS search the customer DB, it's reflected but if not it couldn't be reflected.  
+  
+## Maximum Call number
+* Power: the number of the agent * 2  
+* Predictive: Predictive  
+* Progressive: 1:1 mapping  
+* Preview: see and decine the call by agent directly  
+* Optimized watched: How to busy the agent, lower than predictive.  
+  
+## Outbound Contact Server(OCS)
+OCS controls the data transfer rate.  
+It means OSC know the status of data transfter, and also manage the status.  
+  
+### How to bring the status?
+OCS could bring the status using the mapping data with campaign, calling lists and agent group(Routing Point).  
+  
+## Stat Server
+Stat Server looks at the `place 7011` and the `place 7011` looks at the extension number `7011`.  
+  
+## CPD Server
+CPD Server(Call Progress Detection) Server  
+CPD Server is to call actually. It deals with media, so it's same to Media Server(MCP).  
