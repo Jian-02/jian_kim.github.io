@@ -2,7 +2,7 @@
 layout: post
 title: Genesys & Network
 subtitle: relationship of genesys and network
-categories: AICC,Genesys
+categories: AICC, Genesys
 tags: [AICC, genesys, Network]
 ---
   

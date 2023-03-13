@@ -2,7 +2,7 @@
 layout: post
 title: Genesys CTI
 subtitle: genesys cti last report
-categories: AICC,Genesys
+categories: AICC, Genesys
 tags: [AICC, genesys]
 ---
   

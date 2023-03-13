@@ -2,7 +2,7 @@
 layout: post
 title: Server install
 subtitle: server install
-categories: AICC,Genesys
+categories: AICC, Genesys
 tags: [AICC, genesys]
 ---
   

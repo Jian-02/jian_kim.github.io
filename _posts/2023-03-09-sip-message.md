@@ -2,7 +2,7 @@
 layout: post
 title: SIP message
 subtitle: sip invite message
-categories: AICC,Genesys
+categories: AICC, Genesys
 tags: [AICC, genesys, Network]
 ---
   
