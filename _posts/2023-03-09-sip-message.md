@@ -1,17 +1,32 @@
-Queue vs Routing Point
-아이고,,,아이고,,,,아이고야,,,,,,쪽지시험,,,아이고,,,,,,,,,,,,,,,
+---
+layout: post
+title: SIP message
+subtitle: sip invite message
+categories: AICC,Genesys
+tags: [AICC, genesys, Network]
+---
+  
+# Queue vs Routing Point  
+**Queue has a wall, Routing Point has a hole to out.**  
 
-Queue : 쌓이는건 EventQueued(CCPulse: CallEntered) / 나가는건 EventDiverted(CCPulse: CallDistributed) / 실패하는건 EventAbandoned
-
-RoutingPoint: EventQueued / EventDiverted
-RP는 빠져나갈구멍이 있고 전략이 로딩이 가능해서 선입선출이 아닐지두
-
-전략에 ANY에 자기번호 넣어서 하는경우도있음
-차이점은 RP는 옆에 구멍이 있어서 탈출이 가능함, RP는 CTI 전략이 로딩이 가능하지만 Queue는 불가능
-
-
------
-
+Queue  
+enter: EventQueued(CCPulse: CallEntered)  
+exit: EventDiverted(CCPulse: CallDistributed)  
+failt: EventAbandoned  
+  
+RoutingPoint  
+enter: EventQueued  
+exit: EventDiverted  
+**Routing Point has a hole to out and enable to load the strategy. So, it's not FIFO always.**  
+  
+Sometime ANY number is the self phone number in the strategy.  
+  
+## Difference between Queue and Routing Point
+Queue doesn't have the hole to out, So it has fail case and follow the FIFO algorythm.  
+Routing Point has a hole to out and enable to CTI strategy.  
+  
+# SIP message
+```
 13:39:18.897: SIPTR: Received [0,UDP] 502 bytes from 10.1.33.4:5060 <<<<<
 REGISTER sip:10.1.14.175:5060;transport=udp SIP/2.0
 From: "Genesys Softphone" <sip:7014@10.1.14.175:5060>;tag=1C711677-9543-43E2-A7CB-F3A814E3DDE2-1
@@ -24,14 +39,13 @@ User-Agent: Genesys-Softphone/8.5.400.10 (Windows 10.0.19045)
 Max-Forwards: 70
 Contact: <sip:7014@10.1.33.4:5060>
 Expires: 60
+```  
+<<<<< : Entered the SIP message  
+7014@10.1.14.175 : URI  
+User-Agent: footprint(softphone information)  
+Expires 60: Check time -> 60 sec, but usually check the 2/3 times of 60 sec.  
 
--------
-<<<<< : SIP입장 들어오는거
-7014@10.1.14.175 : URI
-User-Agent: 족적(소프트폰 정보)
-Expires 60: 체크하는 시간 60초 그러나 2/3 시간에 체크하러감
-
-------
+```
 13:39:18.897: Sending  [0,UDP] 462 bytes to 10.1.33.4:5060 >>>>>
 SIP/2.0 200 OK
 From: "Genesys Softphone" <sip:7014@10.1.14.175:5060>;tag=1C711677-9543-43E2-A7CB-F3A814E3DDE2-1
@@ -42,3 +56,4 @@ Via: SIP/2.0/UDP 10.1.33.4:5060;branch=z9hG4bK115B9E53-A36B-46AE-9DED-8C89B46E8C
 Contact: <sip:7014@10.1.33.4:5060>;expires=60
 Expires: 60
 Content-Length: 0
+```  
