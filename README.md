@@ -97,6 +97,18 @@ a star!**
 Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
 ## 🛠️  Installation
+### Ruby Installation
+Operation System:  
+- CentOS7  
+Install ruby :  
+```
+yum install centos-release-scl-rh
+yum install rh-ruby26-ruby
+```   
+To enable `ruby` command :  
+```
+scl enable rh-ruby26 bash
+```  
 
 There are three ways to install:
 
